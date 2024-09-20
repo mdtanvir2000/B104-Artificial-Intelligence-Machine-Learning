@@ -1,0 +1,1001 @@
+CustomerID,Gender,Age,Tenure,SubscriptionType,MonthlyCharges,TotalCharges,PaymentMethod,ContractType,StreamingServiceUsed,SupportCalls,Churn
+1,Male,34,11,Premium,90.12,3080.77,Bank Transfer,Two Year,Yes,5,1
+2,Female,26,56,Standard,35.87,1477.14,Bank Transfer,Month-to-Month,Yes,7,1
+3,Male,50,67,Standard,43.1,950.13,Bank Transfer,Month-to-Month,Yes,1,0
+4,Male,37,29,Standard,15.23,1960.78,Bank Transfer,Month-to-Month,No,3,0
+5,Male,30,9,Premium,20.04,4027.08,PayPal,Two Year,No,6,0
+6,Female,45,67,Standard,56.43,2021.26,PayPal,Month-to-Month,Yes,0,0
+7,Male,65,25,Basic,34.08,3778.77,Bank Transfer,Month-to-Month,Yes,0,0
+8,Male,46,42,Basic,85.19,714.88,PayPal,Month-to-Month,Yes,9,1
+9,Male,30,9,Standard,11.32,3886.58,PayPal,One Year,No,6,0
+10,Female,63,40,Basic,44.12,1260.97,Bank Transfer,Two Year,Yes,6,0
+11,Male,52,25,Basic,40.36,3419.23,PayPal,Two Year,Yes,0,0
+12,Male,23,5,Premium,11.74,2872.33,PayPal,Two Year,Yes,0,0
+13,Male,35,11,Standard,21.19,4652.81,PayPal,One Year,No,3,0
+14,Male,68,59,Standard,47.23,1997.88,Bank Transfer,Two Year,Yes,4,0
+15,Female,22,38,Premium,54.36,424.21,PayPal,One Year,No,4,0
+16,Male,64,5,Basic,46.39,193.86,Credit Card,One Year,Yes,3,1
+17,Female,42,48,Basic,57.78,4151.61,Credit Card,Two Year,Yes,7,0
+18,Female,19,18,Standard,63.56,2671.2,Bank Transfer,Month-to-Month,Yes,6,1
+19,Female,27,70,Basic,10.89,3898.7,Credit Card,Month-to-Month,No,8,1
+20,Male,47,37,Premium,51.77,1248.69,Bank Transfer,Two Year,Yes,6,0
+21,Female,67,60,Premium,96.71,1790.91,Credit Card,Two Year,Yes,9,0
+22,Male,62,48,Standard,56.71,247.51,Credit Card,One Year,No,0,0
+23,Female,22,28,Premium,70.98,4811.31,Credit Card,Two Year,No,6,1
+24,Female,50,69,Premium,38.07,3372.55,Bank Transfer,One Year,No,0,0
+25,Female,18,40,Standard,79.66,4672.7,Bank Transfer,Two Year,Yes,6,0
+26,Female,35,45,Premium,79.56,1400.93,PayPal,Month-to-Month,No,9,0
+27,Female,49,62,Premium,56.92,3096.17,Bank Transfer,Month-to-Month,Yes,7,0
+28,Female,64,58,Premium,97.84,3424.65,Credit Card,Two Year,No,8,1
+29,Female,66,67,Basic,21.3,1655.99,Credit Card,One Year,No,2,0
+30,Female,28,56,Standard,11.53,4255.74,Bank Transfer,Month-to-Month,No,3,0
+31,Male,38,40,Standard,79.31,4741.09,Bank Transfer,One Year,Yes,3,0
+32,Male,43,40,Standard,82.64,4435.79,Bank Transfer,Two Year,Yes,8,1
+33,Female,42,33,Basic,20.82,3721.43,PayPal,Two Year,Yes,6,0
+34,Female,39,6,Basic,33.9,1459.58,Credit Card,Month-to-Month,Yes,2,0
+35,Female,44,19,Standard,11.58,1479.92,PayPal,Two Year,Yes,9,0
+36,Male,66,40,Basic,36.4,4820.47,PayPal,Month-to-Month,Yes,4,0
+37,Female,30,59,Standard,79.58,150.39,Credit Card,One Year,Yes,6,0
+38,Male,50,59,Basic,56.62,3608.64,Credit Card,Month-to-Month,Yes,7,0
+39,Male,51,48,Premium,41.33,3560.61,Bank Transfer,Month-to-Month,Yes,0,0
+40,Male,58,41,Premium,43.46,3151.18,Bank Transfer,One Year,No,1,0
+41,Male,52,13,Standard,10.12,4951.53,PayPal,Month-to-Month,No,6,0
+42,Male,18,45,Basic,36.98,1628.21,Bank Transfer,Month-to-Month,Yes,1,0
+43,Female,38,53,Basic,68.18,1765.86,Bank Transfer,Two Year,Yes,6,0
+44,Female,65,42,Premium,97.68,486.8,Credit Card,One Year,Yes,8,1
+45,Female,23,63,Premium,86.24,2269.71,Credit Card,Month-to-Month,Yes,1,1
+46,Female,45,27,Basic,12.12,1379.14,Bank Transfer,One Year,No,6,0
+47,Female,34,38,Basic,90.87,1782.59,Credit Card,One Year,No,3,0
+48,Male,22,60,Basic,80.49,4189.4,Bank Transfer,Month-to-Month,Yes,1,0
+49,Female,48,7,Basic,80.23,4683.87,Credit Card,Two Year,No,6,0
+50,Female,22,5,Basic,51.22,1010.09,Credit Card,One Year,No,4,0
+51,Male,55,45,Basic,45.82,1925.29,Credit Card,Month-to-Month,Yes,0,0
+52,Female,20,58,Standard,37.26,4650.29,Credit Card,One Year,Yes,4,0
+53,Male,40,31,Basic,15.91,402.86,Bank Transfer,Two Year,Yes,2,1
+54,Female,54,23,Premium,30.54,552.57,PayPal,Two Year,Yes,6,0
+55,Male,54,42,Standard,32.19,897.68,Credit Card,Two Year,No,5,0
+56,Female,27,10,Basic,53.57,3016.54,Bank Transfer,Month-to-Month,Yes,7,0
+57,Female,27,32,Premium,77.27,837.31,Bank Transfer,Month-to-Month,No,4,0
+58,Male,36,53,Standard,52.64,4843.57,Credit Card,Two Year,Yes,1,0
+59,Male,34,30,Premium,15.21,2288.9,PayPal,Month-to-Month,No,8,0
+60,Male,38,39,Basic,96.2,2557.44,Credit Card,Two Year,Yes,7,0
+61,Male,31,31,Basic,94.85,1308.63,Bank Transfer,Month-to-Month,Yes,5,0
+62,Male,26,2,Basic,80.67,2407.71,PayPal,Two Year,No,9,1
+63,Male,63,12,Basic,99.22,3343.38,Bank Transfer,One Year,No,6,0
+64,Male,18,39,Standard,59.0,3780.77,Credit Card,Two Year,No,8,0
+65,Male,68,66,Standard,96.65,3793.95,PayPal,Two Year,Yes,6,0
+66,Female,62,13,Premium,16.8,2931.67,Bank Transfer,Month-to-Month,No,2,0
+67,Female,30,46,Basic,42.91,4531.36,Bank Transfer,Month-to-Month,No,5,0
+68,Male,21,27,Premium,30.28,4105.3,Bank Transfer,Month-to-Month,No,6,0
+69,Female,18,17,Standard,27.62,3809.54,Credit Card,Month-to-Month,No,1,1
+70,Female,66,60,Basic,22.67,372.47,PayPal,Month-to-Month,No,2,1
+71,Female,57,64,Basic,66.02,133.7,Credit Card,Month-to-Month,No,3,0
+72,Female,49,35,Standard,80.32,1140.99,Credit Card,One Year,No,9,1
+73,Male,51,70,Standard,62.05,3351.27,Credit Card,Two Year,No,5,0
+74,Female,45,30,Standard,23.23,2114.87,PayPal,Two Year,No,0,0
+75,Male,48,71,Standard,83.0,2071.79,Credit Card,Two Year,Yes,8,0
+76,Female,25,63,Standard,67.24,4434.48,Credit Card,One Year,Yes,4,1
+77,Female,56,28,Basic,44.93,4488.26,Credit Card,Two Year,No,6,0
+78,Female,43,60,Standard,70.67,4554.96,Credit Card,One Year,Yes,8,0
+79,Male,51,37,Basic,33.39,1638.0,Bank Transfer,One Year,Yes,8,0
+80,Female,20,22,Basic,41.07,3486.17,Credit Card,One Year,No,0,0
+81,Male,67,68,Standard,92.57,1431.0,Bank Transfer,Two Year,No,0,0
+82,Female,29,20,Standard,36.15,1033.99,Credit Card,One Year,No,2,1
+83,Male,18,68,Basic,52.3,1004.7,PayPal,Two Year,No,5,0
+84,Female,61,64,Standard,90.11,1776.33,Bank Transfer,Two Year,No,1,0
+85,Male,22,17,Standard,73.69,2206.79,Bank Transfer,Month-to-Month,No,9,0
+86,Male,47,12,Standard,15.6,4171.65,Bank Transfer,Month-to-Month,Yes,0,0
+87,Female,47,22,Premium,23.26,687.47,Bank Transfer,One Year,No,0,0
+88,Male,34,17,Basic,10.71,3701.14,PayPal,One Year,Yes,4,0
+89,Female,65,10,Premium,66.78,2704.13,Credit Card,Two Year,No,3,0
+90,Female,64,65,Standard,50.29,1510.93,Bank Transfer,One Year,No,0,0
+91,Female,40,22,Premium,22.08,2514.82,PayPal,One Year,Yes,3,0
+92,Female,32,50,Standard,96.21,1569.72,Bank Transfer,Two Year,No,2,0
+93,Female,54,14,Premium,57.67,3020.8,Credit Card,One Year,No,1,0
+94,Female,38,64,Standard,31.77,2225.84,Bank Transfer,One Year,Yes,8,0
+95,Female,31,47,Premium,55.05,905.59,PayPal,Two Year,No,0,1
+96,Female,19,29,Premium,71.17,671.26,Credit Card,Two Year,Yes,6,0
+97,Female,28,36,Premium,16.86,2778.81,PayPal,Month-to-Month,No,3,0
+98,Female,68,52,Basic,34.72,4521.82,Credit Card,Two Year,No,4,0
+99,Female,56,7,Premium,82.63,1785.39,Credit Card,Month-to-Month,Yes,9,0
+100,Male,55,29,Basic,51.37,3691.7,Credit Card,One Year,No,4,1
+101,Male,51,11,Standard,59.19,3327.44,Bank Transfer,Two Year,Yes,0,0
+102,Female,55,33,Premium,48.95,4664.62,PayPal,Two Year,Yes,5,0
+103,Female,67,6,Standard,13.95,4122.81,PayPal,Two Year,Yes,8,0
+104,Female,51,32,Standard,24.92,2876.37,PayPal,One Year,No,1,0
+105,Female,35,51,Premium,50.1,3319.45,Credit Card,Month-to-Month,No,6,1
+106,Female,47,58,Basic,28.83,4502.09,Bank Transfer,One Year,Yes,5,0
+107,Female,32,26,Premium,14.5,2057.64,Credit Card,One Year,No,4,0
+108,Female,44,46,Standard,85.93,1701.29,PayPal,Two Year,No,3,0
+109,Female,68,29,Standard,98.31,152.97,Bank Transfer,Month-to-Month,No,3,0
+110,Male,51,4,Premium,81.38,4150.1,Bank Transfer,One Year,Yes,5,1
+111,Female,69,13,Basic,86.84,4024.81,Bank Transfer,Two Year,No,3,0
+112,Male,55,39,Basic,31.78,611.83,PayPal,One Year,Yes,4,0
+113,Female,50,15,Standard,96.46,2926.6,Bank Transfer,One Year,No,5,0
+114,Female,41,29,Standard,27.72,2373.51,Bank Transfer,Two Year,No,4,0
+115,Male,32,29,Basic,95.63,681.67,Credit Card,Two Year,Yes,6,0
+116,Female,47,32,Premium,99.53,4904.78,Credit Card,Month-to-Month,No,8,0
+117,Male,59,2,Standard,74.06,1152.01,Bank Transfer,One Year,Yes,9,0
+118,Female,68,47,Basic,98.3,429.45,Bank Transfer,Two Year,No,6,0
+119,Female,34,22,Standard,61.26,3014.75,Credit Card,Two Year,Yes,6,0
+120,Male,22,27,Premium,33.36,3720.45,Credit Card,Month-to-Month,No,3,1
+121,Female,46,67,Basic,49.33,258.97,Credit Card,Month-to-Month,No,0,0
+122,Male,21,56,Standard,63.42,3327.72,PayPal,Two Year,No,7,0
+123,Female,27,21,Premium,16.58,2708.23,PayPal,Month-to-Month,Yes,3,0
+124,Male,34,47,Standard,66.01,606.0,Credit Card,Two Year,Yes,0,0
+125,Male,27,59,Premium,98.31,945.37,Bank Transfer,One Year,Yes,4,0
+126,Female,34,6,Premium,27.11,2883.07,Credit Card,Month-to-Month,No,7,1
+127,Female,37,19,Basic,81.33,1552.15,PayPal,One Year,Yes,3,0
+128,Male,41,57,Premium,91.71,4697.75,Bank Transfer,One Year,Yes,7,0
+129,Female,22,69,Standard,94.93,4111.83,PayPal,One Year,Yes,7,0
+130,Female,51,3,Premium,96.41,4919.48,Bank Transfer,Two Year,Yes,2,0
+131,Female,23,1,Premium,56.93,1372.39,PayPal,One Year,Yes,8,0
+132,Male,19,58,Basic,97.96,4851.65,Bank Transfer,One Year,Yes,2,0
+133,Male,30,38,Premium,78.16,2213.05,Bank Transfer,One Year,Yes,0,0
+134,Male,60,15,Premium,24.55,1802.84,Bank Transfer,Two Year,Yes,1,0
+135,Male,60,34,Standard,52.92,346.71,Bank Transfer,One Year,Yes,5,0
+136,Male,65,61,Basic,74.65,358.55,PayPal,One Year,Yes,9,0
+137,Male,28,35,Basic,32.26,3490.86,PayPal,Month-to-Month,No,1,0
+138,Male,68,64,Basic,67.66,2343.85,Bank Transfer,Two Year,No,5,0
+139,Male,64,25,Premium,69.99,1209.96,Bank Transfer,One Year,Yes,0,0
+140,Male,40,24,Basic,24.64,3108.45,PayPal,Month-to-Month,No,0,0
+141,Female,33,12,Premium,60.86,1339.0,Bank Transfer,Two Year,No,4,0
+142,Male,48,18,Premium,79.45,2930.4,Bank Transfer,Two Year,Yes,9,0
+143,Female,28,15,Standard,54.9,1860.12,Bank Transfer,Two Year,Yes,8,0
+144,Female,33,27,Standard,11.09,4135.41,Credit Card,Two Year,Yes,7,0
+145,Female,25,60,Standard,10.81,4121.41,Bank Transfer,Two Year,No,2,0
+146,Male,21,46,Standard,42.13,2439.02,Credit Card,Two Year,Yes,2,0
+147,Male,57,17,Standard,93.36,1819.01,Bank Transfer,One Year,No,0,0
+148,Male,21,53,Premium,30.58,1876.54,PayPal,One Year,Yes,2,1
+149,Male,42,8,Premium,67.09,4048.0,Credit Card,One Year,No,0,0
+150,Female,20,27,Basic,29.99,1708.08,Credit Card,One Year,No,7,0
+151,Male,49,46,Premium,38.95,1124.39,Bank Transfer,Month-to-Month,Yes,0,0
+152,Male,20,50,Premium,86.32,514.97,Bank Transfer,One Year,Yes,4,0
+153,Male,44,71,Standard,75.6,2386.8,Credit Card,Two Year,No,8,0
+154,Male,46,3,Premium,18.59,2462.45,PayPal,One Year,No,6,0
+155,Male,49,64,Standard,48.58,4220.45,PayPal,One Year,Yes,3,0
+156,Female,67,44,Basic,12.63,1184.07,Bank Transfer,Two Year,Yes,8,0
+157,Male,68,53,Basic,53.28,1966.86,PayPal,One Year,No,8,0
+158,Female,36,24,Premium,69.62,4061.19,PayPal,One Year,Yes,1,0
+159,Male,38,60,Basic,20.67,4135.76,Bank Transfer,One Year,No,9,0
+160,Female,22,3,Premium,36.0,1984.59,PayPal,Month-to-Month,Yes,9,0
+161,Male,35,20,Basic,45.81,2349.71,Bank Transfer,One Year,Yes,5,0
+162,Male,45,46,Standard,92.76,1586.1,Credit Card,Two Year,Yes,3,0
+163,Female,59,15,Standard,99.39,4669.52,Bank Transfer,Two Year,No,7,0
+164,Female,39,25,Standard,14.04,681.35,Credit Card,One Year,Yes,6,0
+165,Female,38,71,Standard,78.49,4675.37,Credit Card,One Year,No,6,0
+166,Male,23,17,Premium,43.46,3450.95,PayPal,One Year,Yes,9,0
+167,Female,18,9,Basic,45.32,2704.7,PayPal,Two Year,No,8,1
+168,Male,22,38,Premium,77.88,260.03,PayPal,Two Year,No,4,1
+169,Male,58,48,Standard,92.66,2430.42,Bank Transfer,Month-to-Month,Yes,5,0
+170,Female,29,60,Premium,95.58,2097.97,PayPal,Month-to-Month,No,0,0
+171,Female,43,63,Basic,61.94,889.97,Credit Card,Month-to-Month,No,5,0
+172,Male,63,2,Premium,42.14,3316.41,PayPal,Two Year,No,1,0
+173,Male,51,11,Basic,80.88,4858.64,PayPal,Month-to-Month,No,5,0
+174,Female,66,64,Premium,32.59,2854.73,Bank Transfer,One Year,Yes,8,0
+175,Female,31,21,Basic,60.77,3602.29,Bank Transfer,One Year,Yes,7,1
+176,Female,43,18,Basic,42.27,435.41,Credit Card,Two Year,Yes,8,0
+177,Male,62,64,Standard,69.1,2146.57,Bank Transfer,Month-to-Month,No,9,0
+178,Male,44,38,Basic,31.64,670.16,PayPal,One Year,No,7,0
+179,Male,26,32,Standard,27.24,3102.7,Bank Transfer,Two Year,Yes,2,1
+180,Male,43,11,Standard,92.64,4698.56,Credit Card,Month-to-Month,Yes,7,0
+181,Male,64,45,Standard,19.16,3342.71,PayPal,One Year,No,5,0
+182,Male,39,33,Premium,55.54,476.33,Credit Card,Month-to-Month,Yes,5,0
+183,Female,64,41,Premium,29.88,1837.86,Bank Transfer,Two Year,Yes,5,1
+184,Male,47,8,Premium,13.5,2798.25,Bank Transfer,Month-to-Month,No,2,0
+185,Male,60,11,Premium,13.24,2075.72,Credit Card,Two Year,Yes,9,1
+186,Male,65,51,Basic,25.77,4184.86,PayPal,Month-to-Month,No,0,0
+187,Female,34,41,Basic,88.01,4091.89,Bank Transfer,One Year,Yes,3,0
+188,Male,43,17,Premium,35.42,3097.97,Bank Transfer,Two Year,No,9,0
+189,Male,53,46,Basic,95.54,1929.94,PayPal,Two Year,No,5,0
+190,Female,18,32,Basic,62.35,1351.15,Bank Transfer,Two Year,No,9,0
+191,Male,25,54,Standard,49.3,618.78,Credit Card,Month-to-Month,No,1,1
+192,Male,66,20,Standard,62.21,1839.0,Bank Transfer,Month-to-Month,No,6,0
+193,Male,52,33,Standard,56.5,2124.55,Bank Transfer,One Year,Yes,6,0
+194,Male,69,40,Standard,78.29,3411.53,PayPal,Two Year,Yes,3,0
+195,Male,32,32,Basic,35.42,3324.98,Credit Card,Two Year,Yes,3,0
+196,Female,64,2,Premium,41.77,443.53,PayPal,Month-to-Month,No,0,0
+197,Female,39,33,Basic,90.47,2036.77,Bank Transfer,Month-to-Month,Yes,1,0
+198,Female,31,30,Basic,95.18,990.72,Bank Transfer,One Year,No,8,0
+199,Male,43,33,Basic,90.33,868.38,PayPal,One Year,No,9,0
+200,Male,45,26,Standard,47.75,4153.78,PayPal,Month-to-Month,Yes,7,1
+201,Male,40,22,Standard,80.23,305.38,PayPal,Two Year,No,7,0
+202,Female,31,66,Standard,52.87,2154.0,Credit Card,One Year,Yes,8,1
+203,Male,41,38,Premium,54.78,924.2,Bank Transfer,Month-to-Month,No,6,0
+204,Male,19,46,Basic,28.42,4408.72,PayPal,Month-to-Month,No,8,0
+205,Female,62,15,Premium,63.2,2829.5,Bank Transfer,Two Year,Yes,9,0
+206,Male,43,44,Standard,26.75,1233.77,Credit Card,Month-to-Month,No,1,0
+207,Female,31,49,Premium,39.84,2561.89,Credit Card,Month-to-Month,Yes,5,1
+208,Female,68,61,Basic,86.95,3684.28,Credit Card,One Year,No,2,0
+209,Female,24,67,Basic,28.64,4794.78,Credit Card,Month-to-Month,Yes,5,0
+210,Male,20,6,Standard,16.4,1180.19,Bank Transfer,Month-to-Month,No,2,1
+211,Male,64,9,Standard,16.21,4442.29,Credit Card,One Year,Yes,7,0
+212,Male,40,6,Premium,94.67,4678.09,Credit Card,Two Year,Yes,3,0
+213,Male,63,32,Standard,55.62,4590.46,PayPal,Two Year,No,9,0
+214,Male,60,41,Standard,46.85,3213.53,Credit Card,One Year,Yes,5,1
+215,Male,64,8,Basic,82.98,3186.12,PayPal,One Year,No,8,0
+216,Male,62,50,Standard,85.22,2075.73,Credit Card,Two Year,No,1,0
+217,Female,35,62,Standard,39.9,3786.75,Credit Card,Two Year,Yes,1,0
+218,Male,55,62,Basic,72.43,2703.34,PayPal,Two Year,Yes,6,1
+219,Female,52,7,Basic,79.4,3419.45,Credit Card,Two Year,Yes,1,0
+220,Male,68,4,Premium,68.92,2199.44,Bank Transfer,Two Year,Yes,1,0
+221,Male,32,6,Standard,23.64,3684.33,Bank Transfer,One Year,Yes,3,0
+222,Male,42,58,Basic,88.83,4139.91,Credit Card,Month-to-Month,No,8,1
+223,Female,54,22,Premium,58.52,817.54,Bank Transfer,Two Year,Yes,7,1
+224,Female,45,26,Premium,35.42,4181.36,PayPal,Two Year,No,1,1
+225,Female,27,3,Standard,48.27,2747.45,Credit Card,Month-to-Month,Yes,7,0
+226,Female,56,41,Standard,13.38,4238.86,Credit Card,Month-to-Month,Yes,3,0
+227,Male,34,60,Premium,21.51,2213.38,PayPal,Month-to-Month,Yes,1,0
+228,Female,56,14,Basic,78.9,1957.3,PayPal,Month-to-Month,No,9,1
+229,Male,39,12,Premium,10.0,4583.8,PayPal,Month-to-Month,Yes,6,0
+230,Male,43,12,Standard,47.49,1330.73,Credit Card,Month-to-Month,No,5,0
+231,Female,61,13,Basic,57.03,4236.64,PayPal,One Year,No,9,0
+232,Female,42,25,Basic,14.92,2471.7,PayPal,Month-to-Month,No,4,0
+233,Female,34,45,Premium,97.58,2619.07,Bank Transfer,Month-to-Month,Yes,0,0
+234,Female,30,19,Standard,30.35,1611.49,Bank Transfer,One Year,No,1,0
+235,Female,37,55,Premium,37.38,2907.91,Credit Card,Month-to-Month,Yes,7,0
+236,Female,42,45,Premium,37.35,1693.53,Bank Transfer,Two Year,No,0,0
+237,Female,21,8,Premium,30.74,292.42,Bank Transfer,Two Year,Yes,2,0
+238,Female,27,53,Basic,10.13,1432.79,PayPal,Month-to-Month,No,1,0
+239,Male,20,55,Basic,75.64,131.26,PayPal,One Year,Yes,4,0
+240,Female,58,32,Standard,97.02,4893.94,Bank Transfer,Two Year,Yes,3,0
+241,Female,62,51,Standard,30.19,4832.16,Bank Transfer,One Year,Yes,6,0
+242,Male,35,44,Premium,69.67,2036.26,Bank Transfer,Two Year,No,4,0
+243,Female,64,70,Premium,76.77,3669.02,Credit Card,Month-to-Month,No,7,0
+244,Male,53,18,Premium,86.36,1794.45,Credit Card,One Year,Yes,3,0
+245,Male,64,22,Standard,48.04,3388.36,Credit Card,One Year,No,5,0
+246,Female,39,37,Basic,37.26,4046.61,Bank Transfer,One Year,No,3,0
+247,Male,51,56,Basic,39.28,4739.11,Bank Transfer,Two Year,No,1,1
+248,Male,64,59,Premium,74.14,2061.04,Credit Card,Two Year,No,0,0
+249,Male,25,3,Premium,83.51,3938.16,Credit Card,Two Year,No,0,0
+250,Male,57,28,Premium,26.35,1403.05,Bank Transfer,Month-to-Month,No,7,0
+251,Female,66,35,Premium,43.38,4952.63,PayPal,Two Year,No,3,0
+252,Male,61,61,Standard,91.17,226.27,Credit Card,Month-to-Month,Yes,4,0
+253,Female,36,54,Basic,82.6,3057.29,Bank Transfer,One Year,Yes,7,0
+254,Male,59,63,Premium,98.64,3331.58,Bank Transfer,One Year,No,6,0
+255,Male,58,7,Standard,77.88,3471.42,PayPal,Month-to-Month,Yes,7,0
+256,Male,54,49,Premium,45.39,689.9,Bank Transfer,Two Year,Yes,7,1
+257,Male,23,31,Premium,63.16,4698.8,Bank Transfer,Month-to-Month,Yes,5,0
+258,Female,69,58,Basic,69.49,987.8,Credit Card,One Year,No,9,0
+259,Female,43,61,Premium,17.06,3151.49,Credit Card,One Year,No,1,0
+260,Male,51,24,Basic,59.0,1191.11,PayPal,Month-to-Month,No,5,0
+261,Male,62,20,Basic,73.84,1605.36,PayPal,Two Year,No,0,1
+262,Female,23,37,Basic,25.06,2777.65,Bank Transfer,Two Year,No,0,0
+263,Male,54,4,Standard,80.26,2144.25,Credit Card,Month-to-Month,Yes,2,1
+264,Male,50,20,Standard,62.54,885.11,PayPal,Month-to-Month,No,2,0
+265,Male,39,60,Basic,95.7,937.59,PayPal,Two Year,Yes,4,0
+266,Female,38,24,Premium,13.82,2148.91,PayPal,One Year,No,0,0
+267,Female,23,50,Basic,33.88,3810.69,Bank Transfer,Month-to-Month,Yes,9,0
+268,Female,23,49,Premium,64.14,4500.03,Credit Card,Two Year,No,5,0
+269,Male,65,51,Basic,36.69,512.23,PayPal,Two Year,No,6,0
+270,Male,21,36,Premium,74.3,2026.21,Credit Card,One Year,No,9,0
+271,Female,47,66,Standard,78.31,591.2,PayPal,One Year,No,2,0
+272,Female,28,34,Premium,19.23,181.3,PayPal,One Year,No,3,1
+273,Female,47,36,Basic,56.25,3342.42,Credit Card,One Year,No,9,0
+274,Female,48,6,Standard,55.8,3052.0,Credit Card,One Year,Yes,9,0
+275,Male,41,39,Premium,43.24,898.79,Credit Card,Month-to-Month,No,9,0
+276,Female,26,42,Premium,93.96,1245.68,Bank Transfer,Two Year,Yes,9,0
+277,Male,20,58,Premium,84.48,216.17,PayPal,Month-to-Month,No,9,0
+278,Female,68,12,Premium,72.75,4191.24,Bank Transfer,Month-to-Month,Yes,2,1
+279,Male,48,3,Premium,74.29,4875.98,Credit Card,Month-to-Month,Yes,0,1
+280,Female,57,18,Standard,51.55,763.75,PayPal,Month-to-Month,Yes,7,0
+281,Female,54,40,Standard,92.89,1234.23,Bank Transfer,Month-to-Month,Yes,9,1
+282,Female,53,21,Standard,72.51,4355.21,PayPal,One Year,Yes,9,0
+283,Female,41,15,Standard,75.61,4639.67,Bank Transfer,One Year,Yes,1,0
+284,Male,48,26,Basic,87.55,2156.17,Credit Card,Two Year,No,0,0
+285,Female,23,8,Standard,34.67,348.05,Bank Transfer,Month-to-Month,Yes,7,0
+286,Male,19,42,Premium,82.64,293.02,PayPal,Two Year,No,6,0
+287,Male,37,44,Premium,27.57,2912.35,PayPal,One Year,No,6,0
+288,Male,45,14,Standard,41.08,2025.19,PayPal,One Year,Yes,3,0
+289,Male,28,2,Premium,40.2,240.4,PayPal,One Year,Yes,8,0
+290,Female,21,37,Standard,98.07,2957.94,Credit Card,Month-to-Month,No,5,0
+291,Male,32,69,Premium,87.09,155.38,Bank Transfer,Month-to-Month,Yes,1,1
+292,Male,23,38,Basic,73.11,3958.12,Credit Card,One Year,Yes,0,0
+293,Male,66,41,Basic,75.44,1601.52,Credit Card,Two Year,Yes,0,0
+294,Female,47,62,Standard,60.59,297.26,Credit Card,Two Year,Yes,8,0
+295,Female,55,60,Standard,95.24,2982.93,PayPal,One Year,Yes,3,0
+296,Female,68,14,Standard,54.66,2048.65,PayPal,Two Year,Yes,4,0
+297,Female,19,2,Premium,44.25,4871.62,PayPal,One Year,Yes,2,0
+298,Male,32,70,Standard,24.67,2766.57,Bank Transfer,Two Year,No,3,0
+299,Male,28,17,Basic,80.76,1448.67,PayPal,One Year,Yes,7,0
+300,Female,25,28,Premium,76.1,3576.25,Bank Transfer,Two Year,No,3,0
+301,Male,43,66,Standard,44.59,1430.31,PayPal,Month-to-Month,No,8,0
+302,Male,68,35,Premium,12.27,4530.79,PayPal,One Year,No,8,0
+303,Male,62,5,Premium,85.51,1936.14,Credit Card,One Year,No,5,0
+304,Female,61,65,Standard,11.03,2794.36,Credit Card,Two Year,Yes,1,1
+305,Female,22,40,Premium,73.33,347.81,Credit Card,One Year,No,9,0
+306,Male,23,56,Basic,97.32,2187.99,Bank Transfer,One Year,No,6,1
+307,Female,43,36,Basic,49.39,4178.58,Bank Transfer,One Year,No,8,0
+308,Female,21,45,Premium,31.15,4047.68,PayPal,Month-to-Month,No,5,1
+309,Female,36,23,Standard,73.44,1199.16,Bank Transfer,Month-to-Month,No,2,0
+310,Female,37,47,Premium,83.54,1207.79,PayPal,Two Year,Yes,6,0
+311,Female,50,31,Basic,59.18,4104.8,Bank Transfer,Month-to-Month,Yes,4,1
+312,Male,37,11,Premium,97.03,4658.95,Bank Transfer,Two Year,No,0,0
+313,Female,66,10,Premium,14.65,567.27,Bank Transfer,Month-to-Month,Yes,2,0
+314,Male,29,67,Basic,55.43,2305.29,Credit Card,Two Year,Yes,4,0
+315,Male,64,14,Premium,74.66,1753.53,Bank Transfer,Month-to-Month,No,6,0
+316,Female,18,10,Premium,87.64,4366.37,Credit Card,Month-to-Month,No,2,1
+317,Male,43,1,Standard,26.13,509.27,Credit Card,Two Year,No,5,0
+318,Male,31,5,Standard,82.0,1134.52,Bank Transfer,One Year,Yes,4,0
+319,Male,55,20,Basic,59.74,3787.09,PayPal,One Year,No,0,0
+320,Female,54,8,Basic,45.69,351.34,PayPal,Month-to-Month,Yes,9,0
+321,Female,28,43,Basic,21.85,2513.42,PayPal,Two Year,Yes,5,0
+322,Male,53,1,Standard,87.88,2266.32,Bank Transfer,One Year,Yes,7,0
+323,Female,30,57,Basic,24.15,1738.57,PayPal,Two Year,No,0,0
+324,Female,60,64,Basic,37.88,2033.4,Credit Card,One Year,Yes,1,0
+325,Female,20,28,Basic,36.1,2696.71,PayPal,Two Year,No,3,1
+326,Female,50,37,Standard,88.43,890.7,Bank Transfer,Month-to-Month,No,1,0
+327,Male,23,47,Premium,70.54,2902.78,PayPal,Two Year,No,8,0
+328,Male,67,37,Basic,81.7,4046.62,Credit Card,One Year,No,9,0
+329,Female,27,49,Premium,32.54,3824.79,Bank Transfer,Month-to-Month,No,7,0
+330,Female,22,44,Basic,66.24,854.11,PayPal,Two Year,Yes,7,0
+331,Male,40,56,Premium,61.46,831.32,Bank Transfer,One Year,Yes,3,1
+332,Male,27,28,Standard,84.95,1414.05,Bank Transfer,Month-to-Month,Yes,4,0
+333,Female,61,6,Standard,91.55,1869.27,Bank Transfer,Two Year,Yes,3,1
+334,Male,19,61,Basic,11.09,2101.43,PayPal,One Year,Yes,8,0
+335,Female,30,20,Premium,70.66,3430.52,Bank Transfer,Two Year,No,1,0
+336,Female,57,2,Standard,14.67,377.73,PayPal,Two Year,No,7,0
+337,Male,19,37,Basic,59.4,269.9,Credit Card,Month-to-Month,Yes,1,0
+338,Male,37,20,Basic,35.89,2020.36,PayPal,Month-to-Month,Yes,0,0
+339,Female,18,26,Standard,37.61,3516.1,Credit Card,One Year,Yes,9,1
+340,Female,54,29,Standard,41.77,1047.83,PayPal,Month-to-Month,No,2,0
+341,Male,26,1,Basic,65.92,3243.37,Bank Transfer,One Year,No,8,1
+342,Female,34,35,Premium,40.06,1373.16,PayPal,Two Year,No,2,0
+343,Male,26,70,Premium,75.94,4441.82,Bank Transfer,Two Year,Yes,8,0
+344,Female,28,59,Premium,46.41,4488.88,Credit Card,One Year,Yes,6,0
+345,Male,32,69,Basic,16.15,1556.71,PayPal,Two Year,Yes,9,0
+346,Male,41,33,Standard,80.54,1226.97,Bank Transfer,Month-to-Month,Yes,0,1
+347,Male,55,51,Basic,35.72,2115.39,Credit Card,Two Year,No,9,0
+348,Female,52,12,Standard,48.95,1278.6,Credit Card,Month-to-Month,Yes,4,0
+349,Female,47,20,Premium,71.69,3394.68,PayPal,One Year,Yes,8,0
+350,Male,48,53,Premium,39.92,4147.72,Credit Card,One Year,Yes,2,0
+351,Female,66,43,Standard,15.09,3398.15,Bank Transfer,Two Year,No,8,0
+352,Male,22,50,Standard,43.65,4139.32,Credit Card,Two Year,No,4,0
+353,Male,61,29,Basic,95.0,2045.26,Credit Card,Month-to-Month,Yes,8,0
+354,Female,67,57,Premium,67.76,865.95,Bank Transfer,Month-to-Month,No,9,0
+355,Female,31,39,Basic,70.43,3715.96,Credit Card,Two Year,No,5,0
+356,Male,28,56,Basic,66.91,1866.33,Credit Card,Two Year,No,8,0
+357,Female,26,43,Basic,27.91,3389.23,Credit Card,One Year,No,6,0
+358,Female,51,50,Premium,47.65,1426.16,Credit Card,One Year,No,6,0
+359,Male,29,23,Basic,77.58,498.03,Bank Transfer,One Year,Yes,7,0
+360,Male,52,44,Basic,19.12,4963.65,Credit Card,Two Year,Yes,6,0
+361,Female,52,38,Basic,35.01,865.39,Bank Transfer,Two Year,Yes,8,0
+362,Male,18,23,Basic,34.87,4943.26,Credit Card,Two Year,No,8,0
+363,Male,57,45,Basic,48.88,4888.67,Credit Card,One Year,No,5,0
+364,Female,39,52,Basic,98.23,3989.71,Credit Card,Two Year,No,6,0
+365,Male,46,50,Premium,16.08,3331.17,Credit Card,Month-to-Month,No,1,0
+366,Male,25,8,Basic,56.68,2931.25,Bank Transfer,Two Year,Yes,8,1
+367,Female,28,1,Standard,26.14,4343.9,Bank Transfer,Two Year,Yes,0,0
+368,Female,58,8,Basic,97.36,1518.25,Bank Transfer,Two Year,Yes,0,0
+369,Male,54,29,Basic,20.2,2391.64,PayPal,Two Year,Yes,2,0
+370,Male,31,5,Premium,46.32,3135.01,Credit Card,Two Year,Yes,5,0
+371,Female,47,47,Premium,76.41,2114.83,Credit Card,Month-to-Month,Yes,4,0
+372,Female,52,34,Standard,73.41,2194.68,Bank Transfer,Month-to-Month,No,1,0
+373,Female,38,65,Standard,48.05,1718.39,PayPal,Two Year,No,8,0
+374,Female,54,55,Premium,41.19,2864.74,Credit Card,One Year,Yes,9,0
+375,Male,22,43,Premium,45.79,4267.82,Bank Transfer,Two Year,No,3,0
+376,Female,36,30,Basic,33.78,1087.49,Credit Card,Two Year,Yes,3,0
+377,Female,31,17,Premium,28.48,4678.72,Credit Card,Two Year,Yes,4,0
+378,Male,43,26,Standard,53.47,3476.53,Bank Transfer,One Year,No,7,0
+379,Female,21,8,Basic,34.17,4134.04,Bank Transfer,One Year,Yes,9,0
+380,Male,42,47,Standard,35.87,2825.33,Credit Card,One Year,Yes,3,0
+381,Female,62,46,Basic,69.11,3919.63,Credit Card,Month-to-Month,Yes,4,1
+382,Female,59,68,Premium,97.17,179.38,Bank Transfer,One Year,No,3,0
+383,Female,42,33,Standard,64.33,4110.06,Credit Card,Month-to-Month,No,5,0
+384,Male,35,1,Basic,16.93,296.68,Credit Card,Month-to-Month,No,2,0
+385,Male,57,19,Basic,16.8,4460.58,Bank Transfer,One Year,No,7,1
+386,Female,25,31,Premium,95.63,4960.62,Credit Card,One Year,Yes,5,0
+387,Male,56,14,Premium,36.76,1540.93,Credit Card,One Year,No,9,0
+388,Male,57,53,Premium,18.29,1130.56,PayPal,Month-to-Month,No,4,0
+389,Male,31,48,Standard,63.91,3850.28,Bank Transfer,Two Year,No,1,0
+390,Male,49,69,Basic,66.13,1339.83,PayPal,One Year,Yes,9,1
+391,Male,68,62,Premium,68.37,4341.26,PayPal,One Year,No,9,0
+392,Male,55,66,Standard,34.07,603.93,PayPal,One Year,No,6,0
+393,Female,50,64,Standard,11.36,717.18,Credit Card,Month-to-Month,Yes,1,1
+394,Female,40,70,Standard,96.85,4897.84,Credit Card,Month-to-Month,Yes,0,0
+395,Male,32,63,Premium,32.58,3401.81,PayPal,Two Year,Yes,6,0
+396,Female,50,33,Premium,70.84,4249.75,PayPal,One Year,Yes,4,0
+397,Female,42,41,Basic,73.6,1689.21,PayPal,Month-to-Month,No,0,0
+398,Female,34,48,Basic,64.9,3414.77,Credit Card,Two Year,Yes,3,0
+399,Female,50,13,Premium,38.16,3011.78,PayPal,One Year,No,3,0
+400,Male,64,31,Standard,34.4,3055.44,PayPal,Month-to-Month,No,9,0
+401,Female,19,68,Standard,63.79,3444.41,Bank Transfer,One Year,No,6,0
+402,Female,31,4,Standard,87.95,2919.26,Bank Transfer,One Year,No,8,1
+403,Male,57,19,Basic,95.21,2202.41,Credit Card,Month-to-Month,No,1,0
+404,Male,57,70,Standard,19.53,1452.02,Bank Transfer,Month-to-Month,Yes,0,1
+405,Female,68,13,Basic,23.93,3866.05,Bank Transfer,Month-to-Month,No,1,0
+406,Female,56,23,Basic,95.03,1208.73,Bank Transfer,One Year,No,6,0
+407,Female,68,1,Standard,76.29,3492.54,Credit Card,One Year,No,9,1
+408,Female,23,54,Standard,89.47,1243.33,Bank Transfer,Two Year,Yes,5,0
+409,Female,23,71,Premium,28.24,3164.12,Credit Card,One Year,No,3,0
+410,Female,20,15,Premium,62.88,3760.68,PayPal,Month-to-Month,No,0,0
+411,Male,24,65,Standard,73.1,1171.7,Bank Transfer,One Year,Yes,0,0
+412,Female,68,71,Basic,71.21,393.72,Credit Card,Two Year,No,4,0
+413,Female,25,15,Basic,46.73,741.77,Bank Transfer,Two Year,No,0,1
+414,Male,59,21,Basic,11.39,3069.39,PayPal,Month-to-Month,Yes,6,0
+415,Male,69,19,Basic,62.46,4262.29,Credit Card,Month-to-Month,No,0,0
+416,Male,32,60,Basic,32.78,320.48,Credit Card,Two Year,No,0,0
+417,Male,64,33,Premium,50.52,3697.34,Credit Card,Two Year,No,1,0
+418,Female,46,49,Standard,96.18,1772.46,PayPal,Two Year,No,9,0
+419,Female,50,35,Premium,45.91,2444.79,PayPal,Month-to-Month,No,2,0
+420,Female,69,44,Basic,85.58,4651.41,PayPal,Two Year,Yes,0,0
+421,Female,47,11,Basic,26.97,1726.66,Credit Card,Two Year,Yes,8,0
+422,Female,56,66,Basic,70.52,2380.15,PayPal,Month-to-Month,Yes,9,1
+423,Female,44,46,Basic,97.93,167.04,Bank Transfer,One Year,No,7,0
+424,Male,53,9,Standard,19.17,499.83,PayPal,One Year,No,4,0
+425,Female,46,3,Basic,10.75,1367.1,Credit Card,Two Year,No,1,0
+426,Male,55,26,Standard,49.02,236.48,Bank Transfer,One Year,Yes,4,0
+427,Male,50,48,Basic,18.34,3193.74,PayPal,One Year,No,5,0
+428,Female,54,66,Standard,77.35,2189.35,Bank Transfer,One Year,No,0,1
+429,Male,44,70,Premium,92.31,2785.91,Bank Transfer,One Year,No,3,0
+430,Female,50,28,Basic,49.06,955.77,Credit Card,Two Year,Yes,8,1
+431,Male,21,26,Standard,33.28,1550.07,Bank Transfer,One Year,Yes,1,0
+432,Female,39,25,Premium,49.1,3352.74,Bank Transfer,One Year,No,4,1
+433,Male,19,12,Basic,75.11,4829.98,Credit Card,Month-to-Month,No,0,0
+434,Female,27,5,Basic,10.81,347.04,Credit Card,Two Year,No,3,1
+435,Female,22,48,Basic,63.05,4462.88,Credit Card,Month-to-Month,Yes,3,0
+436,Female,27,37,Standard,65.2,2926.72,Bank Transfer,Month-to-Month,Yes,5,0
+437,Female,50,44,Standard,67.39,2863.21,Bank Transfer,Two Year,Yes,9,1
+438,Female,55,15,Premium,31.78,2551.36,Bank Transfer,One Year,No,8,0
+439,Male,30,43,Standard,74.26,440.03,Credit Card,Month-to-Month,Yes,2,0
+440,Male,48,48,Standard,18.23,540.4,PayPal,Two Year,No,8,0
+441,Male,64,70,Basic,27.93,3044.47,Bank Transfer,One Year,No,5,1
+442,Female,53,46,Basic,88.97,1770.7,PayPal,Two Year,Yes,6,0
+443,Male,62,43,Basic,76.49,4594.61,Credit Card,Month-to-Month,No,9,0
+444,Female,41,21,Basic,11.24,2092.29,Bank Transfer,One Year,Yes,1,0
+445,Female,69,23,Basic,32.35,802.08,PayPal,One Year,No,9,0
+446,Male,32,47,Basic,29.3,3602.12,Bank Transfer,Two Year,No,5,1
+447,Male,46,15,Basic,34.37,1537.43,Bank Transfer,One Year,Yes,5,0
+448,Female,25,25,Premium,32.28,2674.8,Bank Transfer,Month-to-Month,No,1,0
+449,Male,22,36,Premium,15.63,3519.38,PayPal,Month-to-Month,No,1,1
+450,Female,46,51,Premium,51.3,4511.29,Credit Card,Month-to-Month,No,1,0
+451,Female,64,15,Premium,75.95,3981.74,Bank Transfer,Two Year,No,9,0
+452,Female,21,68,Basic,64.61,3414.17,Credit Card,One Year,No,0,0
+453,Female,29,21,Premium,70.56,3430.2,Credit Card,One Year,No,4,0
+454,Female,62,13,Basic,17.3,4735.03,PayPal,One Year,No,7,0
+455,Male,19,19,Premium,95.63,1549.54,PayPal,Month-to-Month,No,1,0
+456,Male,44,34,Standard,85.46,105.45,Credit Card,One Year,Yes,4,0
+457,Female,48,68,Premium,82.46,1432.58,Bank Transfer,Month-to-Month,Yes,7,0
+458,Female,68,52,Premium,84.07,1167.67,PayPal,One Year,No,9,0
+459,Male,68,27,Basic,93.94,3342.99,Bank Transfer,Month-to-Month,No,4,0
+460,Male,53,29,Premium,58.98,3205.19,Bank Transfer,One Year,Yes,1,0
+461,Female,53,28,Standard,28.03,3007.96,Bank Transfer,Two Year,No,2,0
+462,Male,43,35,Basic,65.51,179.59,Credit Card,Two Year,Yes,5,0
+463,Female,60,8,Basic,76.86,3671.01,Bank Transfer,Month-to-Month,Yes,4,0
+464,Male,44,16,Premium,76.41,1685.3,Credit Card,Month-to-Month,Yes,3,0
+465,Female,22,36,Basic,56.93,3358.77,Credit Card,One Year,No,3,0
+466,Male,37,30,Basic,16.16,2827.23,Bank Transfer,One Year,No,4,0
+467,Female,28,18,Basic,43.4,1779.38,Bank Transfer,Two Year,No,1,0
+468,Male,27,2,Basic,92.87,759.42,Bank Transfer,One Year,Yes,8,0
+469,Male,57,49,Basic,62.6,562.65,Bank Transfer,Month-to-Month,Yes,1,0
+470,Female,55,4,Basic,58.45,4174.44,Credit Card,Month-to-Month,Yes,9,1
+471,Male,23,7,Standard,34.2,4600.15,Bank Transfer,Month-to-Month,No,1,1
+472,Female,25,39,Premium,43.16,3283.96,Bank Transfer,Month-to-Month,Yes,9,0
+473,Male,40,13,Standard,90.58,606.83,Credit Card,Month-to-Month,Yes,8,0
+474,Female,64,31,Basic,69.98,2069.93,PayPal,Two Year,No,2,0
+475,Male,43,71,Basic,80.86,3671.8,PayPal,Two Year,Yes,9,0
+476,Female,63,63,Premium,50.89,3921.12,Credit Card,Month-to-Month,Yes,6,0
+477,Male,60,56,Standard,66.72,679.27,PayPal,One Year,No,3,0
+478,Female,29,42,Premium,32.35,100.15,Credit Card,Month-to-Month,No,5,0
+479,Male,43,61,Standard,73.49,3589.47,Bank Transfer,Two Year,Yes,3,0
+480,Female,30,42,Basic,48.48,1847.32,Bank Transfer,Month-to-Month,No,9,0
+481,Female,57,56,Premium,49.83,1346.96,PayPal,Two Year,Yes,6,0
+482,Female,35,36,Premium,68.44,163.2,Bank Transfer,Two Year,No,0,0
+483,Male,42,68,Basic,94.27,2747.47,PayPal,Month-to-Month,Yes,2,0
+484,Female,50,7,Premium,15.76,4270.64,PayPal,Month-to-Month,No,2,0
+485,Male,64,54,Standard,84.23,4792.4,Bank Transfer,One Year,Yes,0,0
+486,Female,57,1,Standard,36.31,2872.15,Bank Transfer,Two Year,No,5,0
+487,Male,60,44,Standard,49.95,2620.86,PayPal,One Year,No,8,0
+488,Female,29,45,Standard,11.97,516.78,Bank Transfer,Month-to-Month,No,7,0
+489,Male,61,47,Basic,37.09,2789.48,Credit Card,Two Year,No,6,0
+490,Male,53,13,Premium,55.24,1961.9,Bank Transfer,One Year,No,9,1
+491,Female,65,22,Standard,15.06,3074.96,Bank Transfer,One Year,No,7,1
+492,Male,21,21,Basic,54.2,2004.76,Credit Card,One Year,No,5,0
+493,Male,22,9,Premium,93.44,1277.47,Bank Transfer,Month-to-Month,Yes,8,0
+494,Female,54,26,Premium,19.49,565.33,Bank Transfer,Month-to-Month,Yes,2,0
+495,Male,25,9,Basic,78.8,1643.1,PayPal,Month-to-Month,No,9,1
+496,Male,59,15,Basic,46.87,573.56,Bank Transfer,Two Year,No,9,0
+497,Male,66,10,Standard,68.97,966.8,Bank Transfer,Month-to-Month,Yes,8,1
+498,Female,45,42,Premium,33.42,4937.95,Credit Card,Two Year,Yes,3,0
+499,Male,48,24,Premium,24.35,2276.11,PayPal,One Year,No,6,0
+500,Female,26,49,Basic,24.44,2706.17,PayPal,One Year,Yes,8,1
+501,Male,68,26,Premium,16.34,4380.73,PayPal,Month-to-Month,Yes,1,0
+502,Male,46,37,Standard,26.71,4978.29,Bank Transfer,One Year,No,1,0
+503,Male,31,68,Premium,69.78,2955.3,PayPal,Month-to-Month,No,8,0
+504,Female,57,50,Basic,89.35,4081.12,Credit Card,Two Year,No,2,0
+505,Male,58,24,Basic,83.27,1702.01,PayPal,One Year,Yes,8,0
+506,Male,39,19,Standard,71.66,1598.15,Credit Card,Month-to-Month,No,4,0
+507,Female,28,60,Standard,19.94,2073.25,PayPal,One Year,No,5,0
+508,Male,40,39,Premium,36.03,3395.29,PayPal,One Year,Yes,1,0
+509,Female,18,18,Premium,37.88,3442.74,Credit Card,Month-to-Month,No,7,1
+510,Female,63,19,Basic,32.5,1644.67,PayPal,One Year,Yes,8,0
+511,Male,54,36,Standard,56.35,752.73,PayPal,One Year,Yes,1,0
+512,Female,38,55,Standard,58.2,3198.74,PayPal,One Year,Yes,5,0
+513,Male,43,69,Standard,42.12,728.8,Bank Transfer,One Year,Yes,5,0
+514,Female,63,47,Premium,41.84,2934.61,Credit Card,Two Year,Yes,7,0
+515,Female,53,49,Standard,84.57,3497.77,PayPal,One Year,Yes,9,1
+516,Male,40,33,Basic,81.04,3533.0,Credit Card,One Year,No,4,0
+517,Female,18,21,Basic,37.7,3792.01,Credit Card,Month-to-Month,No,8,0
+518,Female,68,22,Premium,92.24,4377.01,Credit Card,Two Year,No,0,0
+519,Female,57,48,Premium,95.75,2549.8,PayPal,Month-to-Month,Yes,8,0
+520,Female,32,37,Standard,39.41,3678.22,PayPal,Month-to-Month,No,9,1
+521,Female,38,15,Premium,41.9,3133.95,Credit Card,Month-to-Month,Yes,6,0
+522,Male,64,35,Basic,55.51,1014.54,Bank Transfer,Two Year,No,3,0
+523,Female,26,71,Standard,94.7,225.88,Credit Card,Month-to-Month,Yes,2,0
+524,Male,26,32,Basic,88.87,1494.25,Bank Transfer,Month-to-Month,No,9,0
+525,Female,27,11,Standard,19.23,2270.87,Credit Card,Month-to-Month,Yes,5,0
+526,Male,69,10,Premium,45.35,3123.82,Credit Card,One Year,No,0,0
+527,Male,43,57,Standard,59.8,4264.8,Credit Card,Month-to-Month,Yes,2,0
+528,Female,58,25,Standard,55.28,1061.6,PayPal,Two Year,No,1,0
+529,Female,52,2,Basic,27.45,715.19,Bank Transfer,Two Year,Yes,8,0
+530,Female,69,64,Basic,87.29,4821.05,Bank Transfer,One Year,No,2,1
+531,Male,42,35,Standard,70.92,629.42,Credit Card,Two Year,No,1,1
+532,Female,43,7,Premium,85.41,2444.61,PayPal,Two Year,No,3,0
+533,Male,28,18,Premium,87.29,2969.26,PayPal,One Year,Yes,1,0
+534,Male,55,67,Basic,77.35,2752.73,Bank Transfer,Month-to-Month,Yes,0,0
+535,Male,19,42,Premium,49.53,521.56,PayPal,One Year,Yes,5,0
+536,Female,24,39,Basic,64.95,379.43,Bank Transfer,Month-to-Month,Yes,9,0
+537,Female,35,41,Premium,24.43,616.87,Bank Transfer,Month-to-Month,Yes,7,0
+538,Male,44,24,Standard,70.63,2969.38,Bank Transfer,Two Year,No,9,1
+539,Male,51,60,Basic,26.13,2767.29,PayPal,One Year,Yes,9,1
+540,Female,44,46,Basic,72.46,1245.33,Bank Transfer,Two Year,No,1,0
+541,Male,34,19,Standard,30.66,3225.09,Bank Transfer,Two Year,No,8,0
+542,Female,60,68,Basic,20.58,4118.33,Credit Card,Month-to-Month,Yes,2,0
+543,Male,61,42,Premium,24.88,303.74,Bank Transfer,Two Year,No,7,0
+544,Female,68,32,Premium,10.18,2540.84,Bank Transfer,One Year,Yes,7,0
+545,Male,41,39,Basic,74.69,3477.62,Credit Card,Two Year,Yes,2,0
+546,Female,42,36,Premium,75.92,1336.33,Credit Card,Two Year,Yes,2,1
+547,Male,24,36,Basic,56.34,1608.08,PayPal,Month-to-Month,No,5,0
+548,Female,69,3,Standard,24.52,3106.83,Bank Transfer,One Year,Yes,0,0
+549,Female,23,8,Basic,17.52,4499.88,PayPal,Two Year,Yes,3,0
+550,Male,41,70,Standard,11.72,4068.63,PayPal,Month-to-Month,Yes,0,0
+551,Male,50,41,Premium,24.92,2957.34,Credit Card,Two Year,No,2,0
+552,Female,66,68,Standard,90.18,3678.09,PayPal,One Year,Yes,8,1
+553,Male,46,13,Premium,31.74,1887.63,Bank Transfer,Two Year,No,4,0
+554,Female,60,49,Basic,41.88,3240.73,Credit Card,Two Year,No,4,0
+555,Male,39,60,Premium,19.48,2384.29,Bank Transfer,Month-to-Month,Yes,3,0
+556,Female,43,2,Basic,30.01,1030.69,Bank Transfer,Two Year,No,2,0
+557,Female,45,60,Basic,56.73,3538.52,Credit Card,Month-to-Month,No,4,1
+558,Female,67,5,Standard,64.7,2826.68,Bank Transfer,One Year,Yes,3,0
+559,Female,38,44,Standard,32.08,1857.25,Credit Card,Two Year,Yes,7,1
+560,Female,66,27,Standard,15.2,4565.56,Bank Transfer,One Year,Yes,3,0
+561,Female,24,32,Standard,45.19,202.58,Credit Card,One Year,No,7,0
+562,Male,34,21,Premium,31.08,1647.29,PayPal,Two Year,Yes,5,0
+563,Male,37,8,Premium,29.76,378.72,Bank Transfer,Month-to-Month,No,4,0
+564,Male,58,50,Premium,96.39,3855.98,Credit Card,One Year,No,3,0
+565,Female,66,67,Basic,65.47,3540.33,Bank Transfer,One Year,No,3,0
+566,Female,37,44,Premium,60.12,1723.63,Bank Transfer,Two Year,No,3,0
+567,Female,39,58,Premium,47.42,3410.75,Bank Transfer,Two Year,No,8,0
+568,Female,45,3,Premium,48.6,2040.09,Credit Card,Two Year,Yes,3,0
+569,Male,57,70,Standard,58.68,3805.64,PayPal,Two Year,Yes,8,0
+570,Male,66,2,Premium,72.68,2325.5,PayPal,Two Year,No,9,0
+571,Female,24,44,Basic,73.19,2120.17,PayPal,Two Year,No,5,0
+572,Male,18,2,Standard,25.45,4680.18,Credit Card,Month-to-Month,Yes,9,0
+573,Male,49,35,Basic,55.01,1329.31,PayPal,One Year,Yes,6,0
+574,Female,30,30,Premium,47.08,690.19,Credit Card,Month-to-Month,No,9,0
+575,Male,47,8,Standard,88.35,2964.26,Bank Transfer,Month-to-Month,No,2,0
+576,Female,40,22,Basic,66.83,4849.68,Bank Transfer,Two Year,Yes,7,0
+577,Male,68,44,Premium,57.93,1951.41,PayPal,One Year,Yes,2,0
+578,Female,36,58,Basic,20.39,403.98,Credit Card,Month-to-Month,No,0,1
+579,Female,49,36,Basic,64.51,1762.6,Bank Transfer,Two Year,Yes,9,0
+580,Female,47,69,Basic,20.55,2579.07,Credit Card,Two Year,Yes,4,0
+581,Female,46,31,Premium,40.35,893.42,Credit Card,One Year,No,1,0
+582,Male,66,47,Premium,22.86,3324.7,Bank Transfer,Month-to-Month,No,9,0
+583,Female,62,55,Basic,72.29,4988.97,Credit Card,Month-to-Month,No,5,1
+584,Female,46,62,Standard,28.56,2313.52,Bank Transfer,Month-to-Month,Yes,9,0
+585,Female,47,30,Standard,45.27,1838.17,Bank Transfer,Two Year,No,8,1
+586,Male,33,55,Premium,90.61,2063.45,Bank Transfer,One Year,Yes,0,1
+587,Female,57,16,Premium,28.39,664.22,Credit Card,One Year,No,3,0
+588,Male,36,12,Premium,55.7,4428.04,Bank Transfer,Month-to-Month,No,0,0
+589,Female,35,17,Premium,47.73,2132.65,Credit Card,Two Year,Yes,0,0
+590,Male,18,16,Premium,11.63,1997.64,Bank Transfer,Month-to-Month,Yes,7,0
+591,Male,31,12,Standard,81.35,3332.48,Bank Transfer,One Year,No,1,0
+592,Female,68,8,Premium,16.21,2265.96,PayPal,Two Year,No,0,0
+593,Male,64,3,Basic,52.68,3276.34,PayPal,Month-to-Month,Yes,7,0
+594,Female,67,16,Basic,60.46,401.09,PayPal,Month-to-Month,No,3,0
+595,Female,19,30,Standard,66.56,4087.24,Credit Card,Two Year,Yes,2,0
+596,Female,45,23,Basic,71.98,4708.47,Credit Card,One Year,Yes,3,1
+597,Male,66,5,Standard,32.79,3278.95,Bank Transfer,Two Year,No,4,0
+598,Male,67,65,Standard,10.9,4777.37,Bank Transfer,Month-to-Month,Yes,0,1
+599,Female,47,30,Basic,75.11,842.02,Bank Transfer,Month-to-Month,Yes,0,0
+600,Female,55,21,Premium,58.21,2439.34,Bank Transfer,Month-to-Month,Yes,2,0
+601,Male,68,70,Basic,85.25,3048.85,Credit Card,Month-to-Month,No,5,0
+602,Female,21,22,Basic,83.92,2950.51,Bank Transfer,One Year,Yes,0,0
+603,Female,18,32,Standard,85.9,2067.16,Bank Transfer,One Year,No,1,0
+604,Female,25,33,Basic,53.66,1756.61,PayPal,Month-to-Month,No,6,0
+605,Male,46,16,Standard,40.03,721.44,Bank Transfer,One Year,No,0,1
+606,Male,56,38,Premium,81.24,2019.54,Bank Transfer,One Year,Yes,6,0
+607,Male,20,14,Premium,50.62,897.04,Bank Transfer,One Year,Yes,3,0
+608,Female,49,36,Premium,26.51,3698.39,Credit Card,Month-to-Month,No,9,1
+609,Female,27,23,Basic,86.95,1123.27,PayPal,Two Year,No,5,0
+610,Female,27,66,Standard,89.43,386.97,Bank Transfer,Two Year,Yes,7,0
+611,Male,36,2,Premium,51.97,2806.59,Bank Transfer,Two Year,No,8,0
+612,Female,63,65,Standard,16.81,3016.63,PayPal,Month-to-Month,No,5,1
+613,Female,51,67,Standard,44.9,4372.37,Bank Transfer,One Year,Yes,8,0
+614,Female,50,52,Premium,82.32,2927.21,Credit Card,One Year,No,3,0
+615,Female,40,62,Premium,91.16,1792.86,Bank Transfer,Month-to-Month,Yes,5,0
+616,Male,45,23,Standard,28.31,4034.76,Credit Card,Month-to-Month,Yes,7,1
+617,Male,49,26,Premium,16.03,2747.37,Credit Card,Two Year,No,8,0
+618,Female,67,68,Standard,88.96,488.47,Bank Transfer,Two Year,Yes,2,1
+619,Male,24,55,Standard,45.05,2872.67,PayPal,Month-to-Month,Yes,1,0
+620,Male,46,6,Premium,58.76,4549.29,Credit Card,Two Year,Yes,5,0
+621,Female,25,35,Basic,97.13,2041.93,PayPal,One Year,No,3,0
+622,Female,18,22,Premium,15.99,1552.0,Bank Transfer,Month-to-Month,No,0,0
+623,Male,20,43,Basic,68.35,803.0,Credit Card,Month-to-Month,No,7,1
+624,Female,41,15,Standard,16.67,842.08,Bank Transfer,One Year,Yes,8,0
+625,Male,40,60,Standard,43.79,2220.58,PayPal,One Year,Yes,8,0
+626,Female,25,12,Basic,82.34,3018.83,Bank Transfer,One Year,No,1,0
+627,Male,64,49,Standard,49.01,495.02,Bank Transfer,Two Year,No,8,0
+628,Female,54,42,Basic,99.75,4703.89,Credit Card,Month-to-Month,Yes,6,0
+629,Male,20,38,Basic,60.32,3800.15,Bank Transfer,Two Year,No,4,0
+630,Male,68,45,Standard,38.9,2974.46,Bank Transfer,One Year,No,6,0
+631,Male,50,35,Basic,29.81,4159.35,Bank Transfer,Two Year,No,8,0
+632,Female,45,30,Premium,41.55,492.92,Credit Card,One Year,No,7,0
+633,Male,64,30,Premium,43.53,2436.51,PayPal,Two Year,No,5,0
+634,Male,25,6,Standard,16.18,3187.46,PayPal,Two Year,Yes,3,0
+635,Female,51,67,Standard,43.26,4160.4,Bank Transfer,One Year,No,0,0
+636,Female,52,7,Basic,51.78,3939.0,Credit Card,Two Year,No,5,0
+637,Male,49,52,Basic,75.05,1457.64,Bank Transfer,Month-to-Month,Yes,2,1
+638,Male,41,14,Basic,69.11,4710.31,PayPal,Two Year,Yes,5,0
+639,Female,31,15,Basic,73.79,709.29,Credit Card,Two Year,Yes,5,1
+640,Female,49,21,Premium,10.75,4388.15,PayPal,Month-to-Month,Yes,3,1
+641,Female,63,35,Premium,29.59,4857.61,PayPal,One Year,No,1,0
+642,Female,60,66,Standard,69.55,968.05,Credit Card,Month-to-Month,No,8,0
+643,Female,33,2,Basic,53.56,3638.12,Credit Card,Two Year,No,1,1
+644,Male,21,35,Basic,10.48,297.4,Bank Transfer,One Year,No,2,0
+645,Female,69,20,Standard,82.4,2086.57,Bank Transfer,Two Year,Yes,9,0
+646,Male,54,10,Basic,79.55,2629.79,PayPal,Two Year,Yes,0,0
+647,Male,38,25,Basic,59.36,2945.16,Credit Card,Month-to-Month,No,6,0
+648,Male,31,66,Basic,15.98,4686.09,Credit Card,Month-to-Month,No,0,0
+649,Female,48,25,Basic,78.99,3394.03,Bank Transfer,One Year,No,8,0
+650,Male,65,54,Basic,62.53,2458.26,PayPal,One Year,No,0,0
+651,Male,35,33,Standard,80.38,4067.41,PayPal,One Year,Yes,4,0
+652,Female,24,36,Basic,77.66,4757.61,Bank Transfer,Two Year,No,6,0
+653,Male,27,14,Standard,82.27,208.12,Credit Card,Month-to-Month,Yes,2,0
+654,Male,24,65,Basic,56.62,4914.35,Bank Transfer,Month-to-Month,Yes,8,0
+655,Female,50,54,Premium,22.63,522.05,Bank Transfer,Month-to-Month,Yes,7,1
+656,Male,40,52,Premium,70.4,4090.5,Bank Transfer,One Year,Yes,2,0
+657,Male,38,3,Premium,65.84,1473.64,Bank Transfer,Month-to-Month,No,4,0
+658,Male,36,41,Premium,76.8,747.68,Credit Card,Month-to-Month,No,6,0
+659,Female,65,6,Standard,25.29,2255.29,Bank Transfer,Month-to-Month,No,3,0
+660,Female,36,25,Standard,27.55,3255.39,Credit Card,One Year,No,4,0
+661,Female,53,13,Basic,90.14,1966.66,Bank Transfer,Month-to-Month,Yes,2,1
+662,Male,46,8,Premium,77.5,367.37,PayPal,One Year,Yes,8,0
+663,Male,35,21,Standard,91.74,3037.36,Credit Card,Month-to-Month,Yes,9,1
+664,Female,19,68,Basic,78.28,4521.78,PayPal,Month-to-Month,No,8,0
+665,Male,18,25,Basic,63.74,1977.76,Bank Transfer,Month-to-Month,Yes,6,0
+666,Male,64,68,Standard,68.87,1160.03,Bank Transfer,One Year,Yes,9,0
+667,Female,22,45,Premium,90.02,2268.63,Bank Transfer,One Year,Yes,1,1
+668,Female,37,60,Basic,62.09,336.98,Credit Card,Month-to-Month,Yes,6,0
+669,Male,28,12,Premium,66.92,4120.39,PayPal,Two Year,No,6,0
+670,Male,59,32,Premium,24.08,4149.07,Credit Card,One Year,Yes,4,1
+671,Male,19,13,Premium,52.65,2981.2,Credit Card,One Year,Yes,8,0
+672,Female,20,31,Basic,74.48,1830.2,Bank Transfer,Month-to-Month,No,2,0
+673,Female,40,20,Premium,34.38,4018.94,PayPal,Two Year,No,3,1
+674,Female,29,18,Basic,28.2,2817.97,Bank Transfer,Month-to-Month,No,0,0
+675,Female,37,60,Premium,38.24,4147.07,Credit Card,One Year,Yes,5,0
+676,Male,22,63,Basic,31.74,3194.15,Bank Transfer,One Year,Yes,3,0
+677,Female,54,6,Premium,29.34,3943.59,PayPal,Month-to-Month,Yes,0,0
+678,Female,55,32,Standard,48.24,3032.96,Bank Transfer,Month-to-Month,Yes,1,0
+679,Female,47,43,Premium,91.71,2129.29,PayPal,Two Year,No,2,0
+680,Female,26,2,Premium,55.64,4793.93,PayPal,Two Year,Yes,8,0
+681,Female,51,60,Basic,26.91,2751.46,Bank Transfer,One Year,Yes,7,0
+682,Male,61,23,Basic,16.93,3064.94,Credit Card,Two Year,No,6,1
+683,Male,52,31,Premium,72.65,1180.39,Bank Transfer,Two Year,No,3,1
+684,Female,69,5,Standard,44.45,3165.69,Credit Card,One Year,No,0,0
+685,Male,39,34,Standard,83.96,2900.88,Credit Card,One Year,Yes,7,0
+686,Female,61,10,Basic,69.36,1005.71,Bank Transfer,One Year,Yes,3,1
+687,Female,41,2,Standard,81.66,391.98,Credit Card,One Year,Yes,2,0
+688,Male,34,11,Premium,34.48,3061.36,Credit Card,Month-to-Month,Yes,8,0
+689,Male,27,50,Basic,72.31,3842.09,Bank Transfer,One Year,Yes,9,1
+690,Female,47,31,Premium,33.77,2664.67,Bank Transfer,One Year,No,3,0
+691,Female,63,56,Basic,94.52,1211.19,Bank Transfer,One Year,No,3,0
+692,Female,40,9,Basic,67.27,3365.96,Credit Card,Two Year,Yes,8,0
+693,Male,49,21,Basic,39.21,492.52,PayPal,One Year,Yes,1,0
+694,Female,34,28,Basic,34.26,2264.99,Credit Card,Month-to-Month,Yes,4,0
+695,Female,67,62,Standard,27.18,900.5,PayPal,Month-to-Month,Yes,3,0
+696,Female,68,7,Premium,72.52,1003.85,Bank Transfer,One Year,Yes,8,0
+697,Male,34,16,Premium,29.68,1091.24,PayPal,Month-to-Month,No,4,0
+698,Female,31,4,Premium,63.58,1994.86,Bank Transfer,Two Year,No,8,0
+699,Female,26,4,Basic,33.82,350.64,Bank Transfer,One Year,No,8,0
+700,Male,57,40,Standard,69.58,2049.19,PayPal,Month-to-Month,Yes,1,0
+701,Female,19,17,Premium,83.34,2607.37,Bank Transfer,Month-to-Month,Yes,8,0
+702,Female,62,52,Standard,80.02,2468.14,PayPal,One Year,No,2,1
+703,Male,42,52,Basic,78.48,1975.64,Bank Transfer,Month-to-Month,No,3,0
+704,Female,56,36,Premium,26.9,4211.82,Credit Card,One Year,Yes,0,0
+705,Male,26,38,Standard,17.95,812.1,Credit Card,Month-to-Month,No,0,0
+706,Male,39,50,Basic,72.91,2577.91,Bank Transfer,Two Year,No,0,0
+707,Female,60,63,Standard,43.15,404.0,Bank Transfer,Month-to-Month,Yes,8,0
+708,Female,63,63,Premium,48.91,448.66,PayPal,Month-to-Month,No,7,0
+709,Female,21,62,Premium,12.8,2911.94,Credit Card,One Year,No,4,0
+710,Female,43,7,Basic,33.36,2873.49,PayPal,Month-to-Month,No,4,0
+711,Male,46,27,Basic,13.03,4402.36,Bank Transfer,One Year,Yes,8,1
+712,Female,62,14,Basic,89.13,2833.58,Bank Transfer,Two Year,No,2,0
+713,Male,51,71,Standard,31.91,4802.98,PayPal,One Year,No,2,0
+714,Female,40,5,Standard,60.16,338.6,Bank Transfer,One Year,No,6,0
+715,Female,54,55,Standard,13.51,580.24,Credit Card,Month-to-Month,Yes,8,0
+716,Female,28,2,Basic,70.02,315.92,PayPal,Two Year,Yes,5,1
+717,Male,23,62,Premium,39.07,1007.86,Credit Card,One Year,No,1,0
+718,Female,35,21,Premium,90.81,2752.22,Credit Card,Month-to-Month,Yes,0,0
+719,Female,38,21,Standard,89.93,3263.3,Credit Card,Month-to-Month,No,1,0
+720,Female,59,10,Standard,39.28,323.37,PayPal,One Year,Yes,0,0
+721,Female,53,58,Premium,91.09,4735.26,Bank Transfer,Month-to-Month,Yes,9,0
+722,Male,58,39,Premium,99.65,4226.61,Credit Card,One Year,No,9,0
+723,Female,55,5,Standard,84.29,1553.4,Credit Card,One Year,No,8,1
+724,Male,51,65,Standard,86.04,478.22,Credit Card,One Year,No,9,0
+725,Male,34,13,Premium,32.41,932.45,Bank Transfer,Two Year,Yes,7,0
+726,Male,54,53,Basic,61.9,722.03,Bank Transfer,One Year,No,6,0
+727,Male,42,45,Standard,16.05,704.09,PayPal,Month-to-Month,Yes,2,0
+728,Male,55,32,Premium,18.54,2640.95,Bank Transfer,Two Year,Yes,7,0
+729,Male,29,36,Premium,99.9,1304.65,PayPal,Month-to-Month,No,1,0
+730,Female,40,60,Premium,39.4,1854.88,PayPal,Two Year,Yes,1,0
+731,Male,59,11,Premium,77.34,4948.58,PayPal,Two Year,No,9,0
+732,Male,39,63,Basic,82.6,3453.14,PayPal,Two Year,Yes,2,1
+733,Male,38,21,Premium,87.22,4750.01,PayPal,Two Year,No,6,0
+734,Female,44,52,Standard,99.79,798.53,Credit Card,Month-to-Month,Yes,0,1
+735,Female,48,55,Basic,31.73,1972.48,Bank Transfer,One Year,Yes,7,1
+736,Male,23,26,Premium,13.63,2818.19,Credit Card,Month-to-Month,No,6,0
+737,Female,44,68,Basic,47.01,476.11,PayPal,One Year,Yes,3,0
+738,Male,57,34,Standard,21.71,120.52,Bank Transfer,Month-to-Month,No,4,0
+739,Male,51,52,Premium,12.02,3385.13,Credit Card,Two Year,Yes,9,1
+740,Female,29,52,Standard,42.44,3244.92,Credit Card,Two Year,Yes,0,0
+741,Male,62,29,Premium,80.54,2112.87,PayPal,One Year,Yes,3,0
+742,Female,24,38,Premium,60.96,2499.26,Credit Card,One Year,No,0,1
+743,Female,27,42,Premium,38.15,2135.67,Credit Card,Month-to-Month,No,0,0
+744,Male,62,21,Premium,68.89,217.62,Credit Card,One Year,No,9,0
+745,Male,34,42,Premium,30.88,1743.32,Credit Card,Month-to-Month,No,0,0
+746,Female,43,13,Basic,11.29,967.7,Credit Card,One Year,No,6,0
+747,Male,38,64,Premium,78.79,582.28,PayPal,One Year,Yes,6,0
+748,Male,45,17,Premium,66.14,4787.93,PayPal,One Year,Yes,3,0
+749,Male,63,9,Basic,78.61,3036.86,Credit Card,Two Year,No,1,0
+750,Female,19,41,Basic,13.5,3670.42,PayPal,Two Year,Yes,2,1
+751,Female,60,1,Basic,85.34,1645.28,PayPal,Month-to-Month,Yes,7,0
+752,Male,18,2,Basic,65.76,2026.42,Bank Transfer,One Year,Yes,7,1
+753,Female,68,60,Basic,60.71,1260.93,Credit Card,Month-to-Month,Yes,5,1
+754,Female,53,48,Basic,66.22,575.13,PayPal,One Year,No,9,0
+755,Female,68,29,Premium,87.8,977.26,PayPal,Two Year,Yes,8,0
+756,Female,43,10,Premium,62.82,4007.82,Credit Card,Two Year,No,8,0
+757,Female,46,58,Standard,62.29,3419.97,Bank Transfer,One Year,No,3,0
+758,Male,38,60,Premium,99.16,2779.95,Credit Card,One Year,Yes,0,0
+759,Male,28,21,Premium,78.11,2427.94,Bank Transfer,Two Year,No,0,0
+760,Male,57,28,Basic,49.81,4619.93,Credit Card,Two Year,Yes,9,0
+761,Female,28,34,Basic,73.67,456.4,Credit Card,Month-to-Month,Yes,4,1
+762,Female,53,8,Premium,45.03,1474.94,Credit Card,Two Year,Yes,1,0
+763,Male,66,59,Standard,30.6,1814.7,Credit Card,One Year,No,5,0
+764,Female,56,49,Basic,63.72,3933.89,Bank Transfer,Month-to-Month,No,6,0
+765,Male,57,17,Premium,93.54,4963.32,Bank Transfer,One Year,No,0,1
+766,Male,52,60,Premium,93.62,1279.29,PayPal,Month-to-Month,Yes,5,0
+767,Male,51,45,Standard,40.77,4384.11,Credit Card,One Year,Yes,7,1
+768,Female,64,69,Standard,57.49,4170.05,Bank Transfer,Two Year,Yes,4,0
+769,Female,41,32,Basic,29.05,1200.82,Bank Transfer,One Year,No,6,0
+770,Male,39,44,Standard,99.61,2056.73,Bank Transfer,Month-to-Month,Yes,9,0
+771,Male,22,65,Premium,98.3,2107.4,Credit Card,One Year,Yes,5,0
+772,Male,50,8,Premium,68.46,4893.28,PayPal,Month-to-Month,No,3,0
+773,Male,53,43,Standard,82.4,986.37,Bank Transfer,One Year,No,6,0
+774,Female,64,1,Standard,74.36,4015.87,Credit Card,Two Year,No,9,0
+775,Female,37,51,Standard,63.38,1737.54,Bank Transfer,Two Year,Yes,8,1
+776,Male,36,24,Standard,14.8,3681.26,Bank Transfer,One Year,Yes,9,0
+777,Male,52,24,Basic,50.93,2158.05,PayPal,One Year,Yes,9,1
+778,Female,69,17,Standard,70.73,2933.96,Bank Transfer,One Year,No,6,0
+779,Female,60,5,Basic,70.98,4179.8,Bank Transfer,Month-to-Month,No,4,0
+780,Male,34,20,Premium,43.58,4040.41,Credit Card,One Year,No,6,0
+781,Male,62,21,Standard,94.75,4345.47,Credit Card,One Year,No,2,0
+782,Male,60,58,Basic,25.06,392.12,PayPal,Month-to-Month,Yes,1,0
+783,Female,51,31,Standard,55.03,3491.05,Credit Card,Two Year,Yes,4,0
+784,Female,26,11,Premium,72.18,785.94,Credit Card,One Year,Yes,3,0
+785,Female,43,52,Premium,72.74,2137.51,PayPal,One Year,Yes,4,0
+786,Male,19,15,Premium,68.38,2788.08,Bank Transfer,Two Year,Yes,7,0
+787,Male,26,7,Standard,34.78,2073.42,PayPal,Two Year,Yes,3,1
+788,Female,26,28,Standard,24.06,2646.1,Credit Card,Month-to-Month,Yes,8,0
+789,Female,57,51,Basic,67.23,4982.98,PayPal,One Year,Yes,6,0
+790,Male,34,58,Premium,63.94,762.56,Bank Transfer,One Year,No,9,0
+791,Female,18,5,Standard,26.14,3409.73,PayPal,Month-to-Month,No,6,0
+792,Female,42,5,Premium,73.46,2040.4,Credit Card,Two Year,Yes,7,0
+793,Male,60,8,Premium,50.97,751.75,Credit Card,Month-to-Month,No,5,0
+794,Female,57,64,Basic,70.1,877.81,PayPal,Two Year,Yes,7,0
+795,Male,59,10,Basic,85.36,4751.44,Bank Transfer,Month-to-Month,Yes,2,0
+796,Male,42,38,Basic,25.28,4410.05,PayPal,Two Year,No,9,0
+797,Male,56,8,Basic,11.72,4544.51,Bank Transfer,Month-to-Month,Yes,9,0
+798,Male,52,25,Premium,80.12,4958.51,Bank Transfer,Two Year,Yes,0,0
+799,Male,20,66,Basic,64.87,1120.75,PayPal,Two Year,Yes,5,1
+800,Male,67,50,Basic,72.97,1841.65,Bank Transfer,Two Year,Yes,0,0
+801,Male,54,67,Basic,85.43,3379.17,Credit Card,Two Year,Yes,8,0
+802,Female,61,49,Basic,82.25,2470.63,PayPal,Two Year,Yes,1,1
+803,Male,61,36,Premium,96.48,2150.11,Bank Transfer,One Year,Yes,1,1
+804,Male,68,68,Basic,58.23,1853.28,Credit Card,Two Year,No,6,0
+805,Female,47,41,Premium,53.96,3009.53,PayPal,One Year,No,1,0
+806,Female,55,62,Standard,46.17,2920.41,Credit Card,Two Year,Yes,9,1
+807,Female,51,10,Premium,23.83,891.14,Credit Card,One Year,No,7,0
+808,Male,29,21,Premium,61.53,2411.53,Credit Card,One Year,Yes,5,1
+809,Female,36,36,Basic,34.93,2812.01,Bank Transfer,Month-to-Month,Yes,6,0
+810,Male,54,12,Standard,92.92,2894.41,PayPal,Two Year,Yes,6,0
+811,Male,61,2,Standard,62.49,1129.53,PayPal,Month-to-Month,Yes,5,0
+812,Male,66,13,Standard,63.36,3737.13,Bank Transfer,Month-to-Month,No,9,0
+813,Male,34,53,Standard,41.94,223.48,PayPal,Two Year,No,8,1
+814,Female,27,32,Premium,14.68,1838.68,Credit Card,Month-to-Month,No,8,1
+815,Female,66,16,Standard,12.86,3923.04,PayPal,Two Year,No,6,0
+816,Male,64,32,Premium,48.1,2863.08,Bank Transfer,Month-to-Month,Yes,8,0
+817,Male,29,32,Premium,17.61,1379.7,Credit Card,Two Year,No,9,1
+818,Male,33,11,Premium,64.62,3505.27,Bank Transfer,Two Year,Yes,2,0
+819,Female,41,10,Standard,89.29,2880.22,Credit Card,Two Year,Yes,2,0
+820,Male,36,15,Basic,89.46,4001.59,Credit Card,One Year,No,0,0
+821,Male,25,17,Basic,69.31,3701.62,PayPal,Month-to-Month,Yes,4,0
+822,Female,48,40,Standard,29.01,3089.53,Credit Card,One Year,No,3,0
+823,Female,38,18,Basic,87.67,2492.07,Bank Transfer,Month-to-Month,No,1,0
+824,Male,34,55,Basic,89.75,752.59,PayPal,Month-to-Month,No,8,0
+825,Female,40,25,Premium,27.7,1380.53,Bank Transfer,Month-to-Month,No,2,1
+826,Female,54,59,Premium,76.37,2153.59,Credit Card,One Year,No,7,0
+827,Male,33,22,Standard,35.79,3036.57,Bank Transfer,Month-to-Month,Yes,5,0
+828,Female,23,30,Standard,82.24,2617.17,Bank Transfer,One Year,No,4,0
+829,Male,25,44,Basic,99.75,1512.1,Credit Card,Two Year,No,0,0
+830,Female,42,32,Premium,12.7,131.68,PayPal,Month-to-Month,Yes,3,0
+831,Male,35,51,Standard,90.76,2531.57,Bank Transfer,Month-to-Month,No,2,0
+832,Male,42,46,Standard,66.04,1499.57,Credit Card,Two Year,No,0,0
+833,Male,29,21,Standard,97.6,3699.58,PayPal,Two Year,Yes,4,0
+834,Female,32,32,Standard,51.85,217.34,PayPal,Month-to-Month,Yes,5,0
+835,Male,43,39,Standard,86.26,2965.66,PayPal,Two Year,No,1,0
+836,Female,58,12,Standard,15.62,4713.22,Bank Transfer,One Year,Yes,2,0
+837,Male,62,47,Basic,40.18,954.61,Bank Transfer,One Year,No,5,0
+838,Male,43,18,Premium,16.03,2411.08,Bank Transfer,Month-to-Month,Yes,3,0
+839,Female,64,21,Premium,97.78,547.97,PayPal,One Year,No,8,0
+840,Male,49,13,Standard,83.53,3165.84,Bank Transfer,One Year,No,4,1
+841,Male,27,21,Premium,86.73,2797.61,Credit Card,Month-to-Month,No,3,1
+842,Female,33,8,Premium,94.42,2096.09,Bank Transfer,Two Year,Yes,1,0
+843,Male,24,46,Premium,17.66,2654.75,Bank Transfer,Month-to-Month,No,5,0
+844,Male,34,7,Standard,44.7,4493.22,PayPal,One Year,Yes,9,0
+845,Male,40,23,Standard,16.39,1061.84,Bank Transfer,Month-to-Month,No,1,1
+846,Male,43,22,Premium,28.97,210.57,Credit Card,Month-to-Month,No,6,0
+847,Female,38,22,Premium,30.64,4322.16,PayPal,One Year,No,2,0
+848,Female,39,29,Standard,52.22,2927.87,Credit Card,One Year,No,8,0
+849,Male,24,13,Basic,34.17,4464.23,PayPal,Month-to-Month,No,4,0
+850,Female,31,2,Premium,19.09,3025.03,PayPal,One Year,Yes,7,1
+851,Male,32,29,Basic,25.07,4069.79,Bank Transfer,One Year,Yes,5,0
+852,Female,24,52,Premium,23.25,2205.4,Credit Card,One Year,Yes,9,0
+853,Male,26,27,Basic,97.58,3774.31,PayPal,One Year,No,7,0
+854,Male,68,50,Basic,78.34,4573.9,Bank Transfer,One Year,No,2,0
+855,Male,65,23,Basic,97.1,2903.4,PayPal,One Year,Yes,2,0
+856,Male,25,44,Standard,49.58,985.85,PayPal,Two Year,No,4,0
+857,Male,67,22,Basic,35.05,1417.11,PayPal,Month-to-Month,No,9,1
+858,Male,40,43,Basic,81.85,1073.36,PayPal,One Year,No,2,0
+859,Female,46,37,Basic,39.36,1309.6,PayPal,Month-to-Month,Yes,7,0
+860,Male,35,61,Premium,36.94,1601.44,PayPal,Two Year,Yes,9,1
+861,Female,48,56,Basic,30.93,2820.16,Bank Transfer,One Year,Yes,7,0
+862,Male,47,3,Premium,21.67,2981.16,PayPal,Month-to-Month,Yes,1,0
+863,Female,69,63,Basic,33.08,2189.85,Credit Card,One Year,Yes,3,0
+864,Female,56,19,Basic,41.98,3115.56,Bank Transfer,One Year,No,9,1
+865,Female,52,23,Standard,70.66,499.72,Credit Card,One Year,No,0,0
+866,Male,35,29,Premium,15.63,530.16,PayPal,One Year,No,3,1
+867,Male,59,30,Basic,28.95,941.96,Credit Card,One Year,No,3,0
+868,Female,56,39,Premium,82.81,2638.58,PayPal,One Year,Yes,9,0
+869,Male,34,25,Premium,23.22,1148.57,PayPal,One Year,Yes,8,0
+870,Female,31,8,Standard,40.84,1488.09,Bank Transfer,Two Year,No,2,0
+871,Male,48,58,Standard,87.82,2061.53,Bank Transfer,Two Year,Yes,1,0
+872,Female,41,16,Standard,23.94,4078.14,PayPal,One Year,No,8,0
+873,Female,52,1,Standard,17.45,167.92,Bank Transfer,One Year,No,8,1
+874,Male,61,5,Standard,53.61,3281.96,Credit Card,Two Year,No,0,0
+875,Female,62,3,Standard,37.22,3377.5,Bank Transfer,Two Year,No,5,0
+876,Male,51,65,Standard,60.71,4013.41,Bank Transfer,Two Year,Yes,9,0
+877,Female,20,4,Standard,82.34,4670.49,Credit Card,One Year,No,7,0
+878,Female,54,64,Basic,22.34,198.68,Bank Transfer,Month-to-Month,Yes,2,0
+879,Male,60,10,Premium,62.26,853.54,PayPal,Month-to-Month,No,8,0
+880,Male,57,21,Standard,55.5,4442.24,Credit Card,Month-to-Month,No,1,0
+881,Male,43,46,Standard,22.97,2346.74,PayPal,Month-to-Month,No,5,0
+882,Female,40,27,Premium,66.16,2866.49,Credit Card,One Year,No,0,0
+883,Male,61,66,Basic,34.63,3348.83,PayPal,Month-to-Month,Yes,6,1
+884,Female,56,41,Premium,53.91,3427.43,PayPal,Two Year,No,2,1
+885,Female,32,13,Premium,17.4,4665.53,Bank Transfer,Two Year,Yes,6,0
+886,Male,66,9,Standard,51.36,4985.05,PayPal,Month-to-Month,No,3,0
+887,Male,21,36,Premium,37.58,3628.77,Bank Transfer,Two Year,No,8,0
+888,Female,46,58,Premium,84.01,1507.38,Credit Card,One Year,No,4,0
+889,Female,39,54,Standard,15.13,4410.79,PayPal,Month-to-Month,Yes,2,0
+890,Male,42,12,Standard,47.67,341.18,PayPal,Month-to-Month,No,7,0
+891,Male,30,14,Standard,51.26,1232.3,Credit Card,One Year,No,5,0
+892,Male,35,34,Standard,75.25,4497.19,Credit Card,Two Year,No,1,0
+893,Male,50,53,Premium,61.69,1355.34,PayPal,One Year,No,2,0
+894,Male,33,20,Premium,70.05,1181.19,Credit Card,One Year,No,7,0
+895,Female,62,16,Basic,79.93,776.81,Bank Transfer,Two Year,Yes,9,0
+896,Female,59,70,Basic,87.6,4309.65,Credit Card,One Year,Yes,6,1
+897,Female,61,56,Premium,38.25,2550.29,Credit Card,Two Year,No,9,0
+898,Female,19,58,Basic,58.42,3406.98,PayPal,Two Year,No,5,0
+899,Male,52,4,Premium,85.61,1271.43,Bank Transfer,One Year,Yes,0,0
+900,Male,59,4,Basic,99.05,3814.4,Credit Card,Two Year,No,8,1
+901,Male,51,20,Standard,90.06,3824.03,Bank Transfer,One Year,Yes,2,0
+902,Female,47,10,Basic,43.43,1631.73,Bank Transfer,Two Year,No,4,0
+903,Female,30,24,Standard,27.56,2112.34,Bank Transfer,Month-to-Month,No,6,1
+904,Male,30,26,Standard,54.05,1127.48,PayPal,Two Year,Yes,6,0
+905,Male,35,37,Standard,76.75,4885.15,Credit Card,Two Year,No,2,0
+906,Female,49,54,Standard,54.33,3263.45,PayPal,One Year,Yes,3,0
+907,Female,49,21,Basic,53.49,4679.27,Credit Card,Two Year,Yes,9,0
+908,Male,52,38,Premium,85.44,1586.59,Credit Card,Month-to-Month,Yes,6,0
+909,Male,56,46,Standard,42.53,3931.27,PayPal,Month-to-Month,No,7,0
+910,Female,63,4,Basic,87.38,3852.71,Bank Transfer,Two Year,Yes,1,0
+911,Male,69,60,Standard,46.61,3489.11,Bank Transfer,Two Year,Yes,8,0
+912,Male,46,57,Basic,39.54,4831.63,Credit Card,Month-to-Month,No,6,0
+913,Male,66,45,Basic,50.86,2028.42,PayPal,One Year,No,7,0
+914,Female,46,20,Basic,78.62,740.51,Bank Transfer,Month-to-Month,No,5,0
+915,Female,61,17,Premium,21.34,3391.37,Bank Transfer,Month-to-Month,No,5,1
+916,Female,33,71,Basic,27.68,3673.62,Credit Card,Two Year,No,8,0
+917,Female,61,4,Basic,95.63,2917.8,Credit Card,Two Year,No,3,0
+918,Female,64,14,Premium,25.79,1113.41,PayPal,Month-to-Month,Yes,4,0
+919,Female,27,3,Premium,61.1,2571.83,Credit Card,One Year,No,8,0
+920,Female,47,58,Basic,62.14,1629.73,Bank Transfer,Month-to-Month,Yes,0,0
+921,Male,42,55,Premium,54.07,2194.59,Bank Transfer,Month-to-Month,No,3,0
+922,Male,56,4,Standard,68.03,3261.57,Bank Transfer,One Year,Yes,6,0
+923,Male,37,24,Standard,30.68,3751.55,Bank Transfer,Month-to-Month,Yes,8,0
+924,Male,22,34,Premium,59.74,1237.9,PayPal,Month-to-Month,No,9,0
+925,Male,18,30,Premium,43.5,2086.09,PayPal,Two Year,No,5,0
+926,Male,47,19,Basic,69.55,1418.89,Credit Card,One Year,Yes,7,0
+927,Male,66,31,Premium,22.71,1073.29,Credit Card,Two Year,No,8,0
+928,Female,20,60,Basic,61.38,3938.6,Credit Card,Two Year,No,9,0
+929,Female,62,60,Standard,26.67,4555.34,PayPal,One Year,Yes,3,0
+930,Male,31,19,Premium,35.08,1914.14,Bank Transfer,One Year,Yes,0,0
+931,Male,47,49,Basic,29.68,3781.27,Credit Card,Month-to-Month,Yes,7,0
+932,Female,67,63,Basic,26.46,4495.28,Bank Transfer,Two Year,No,1,0
+933,Male,21,22,Standard,84.31,4246.01,Credit Card,One Year,No,0,1
+934,Male,35,24,Premium,35.71,995.79,Credit Card,Two Year,No,6,0
+935,Female,54,30,Standard,93.44,4785.83,Credit Card,Two Year,No,9,0
+936,Male,42,58,Basic,97.29,1945.71,Credit Card,One Year,Yes,8,1
+937,Female,65,31,Basic,61.41,1762.28,Credit Card,Month-to-Month,No,8,0
+938,Male,18,64,Premium,22.87,405.91,Bank Transfer,Two Year,Yes,2,0
+939,Female,63,19,Basic,43.71,2482.25,Credit Card,One Year,No,5,0
+940,Female,32,48,Premium,81.8,634.17,Bank Transfer,Month-to-Month,No,6,0
+941,Female,26,45,Standard,43.07,1317.85,PayPal,Two Year,Yes,9,0
+942,Male,32,55,Premium,17.83,1653.02,Credit Card,One Year,No,8,0
+943,Female,66,55,Premium,60.11,4063.25,Bank Transfer,Two Year,No,1,0
+944,Male,41,18,Basic,86.06,4389.89,PayPal,One Year,Yes,7,0
+945,Male,21,63,Basic,81.63,1582.08,PayPal,One Year,No,6,0
+946,Male,29,47,Premium,25.76,4307.62,PayPal,Two Year,Yes,3,0
+947,Male,54,57,Basic,70.55,4300.43,Bank Transfer,Two Year,Yes,1,0
+948,Female,54,45,Basic,29.85,3846.79,Credit Card,One Year,Yes,7,0
+949,Female,60,33,Basic,29.64,818.81,Credit Card,Month-to-Month,Yes,4,0
+950,Male,23,17,Premium,88.67,3482.58,Bank Transfer,Two Year,No,5,0
+951,Male,56,70,Basic,32.47,4730.62,Credit Card,One Year,No,6,0
+952,Female,63,4,Premium,33.69,3444.45,Bank Transfer,One Year,No,9,0
+953,Male,41,20,Basic,10.06,1724.92,Credit Card,Month-to-Month,Yes,0,0
+954,Female,28,47,Standard,88.36,2552.84,PayPal,Month-to-Month,No,7,0
+955,Male,30,15,Basic,81.33,3264.05,Credit Card,Month-to-Month,No,3,0
+956,Male,51,70,Basic,66.46,2601.8,Bank Transfer,Two Year,No,8,0
+957,Female,42,47,Premium,77.52,687.77,Bank Transfer,One Year,No,0,0
+958,Male,24,9,Premium,23.68,1629.11,PayPal,One Year,Yes,1,0
+959,Female,69,16,Basic,51.25,4031.74,Bank Transfer,One Year,Yes,5,0
+960,Male,21,69,Standard,41.61,4320.95,Credit Card,Month-to-Month,No,9,0
+961,Male,25,61,Basic,18.44,772.77,Credit Card,One Year,Yes,0,1
+962,Male,37,10,Basic,53.75,4766.7,PayPal,Two Year,No,3,0
+963,Female,46,50,Standard,92.87,1711.23,Bank Transfer,Month-to-Month,No,7,1
+964,Male,68,3,Premium,13.61,3345.34,PayPal,Month-to-Month,No,9,1
+965,Male,62,70,Basic,36.23,3783.94,Credit Card,Month-to-Month,Yes,4,0
+966,Male,63,51,Premium,28.68,4078.54,PayPal,Month-to-Month,No,8,0
+967,Male,27,19,Premium,31.43,4734.17,Bank Transfer,Two Year,Yes,5,0
+968,Female,60,42,Standard,91.76,1633.31,PayPal,One Year,Yes,0,1
+969,Female,51,35,Standard,52.13,4306.68,Bank Transfer,Two Year,No,5,0
+970,Male,43,46,Premium,51.97,745.27,Bank Transfer,One Year,Yes,5,1
+971,Female,58,26,Basic,78.45,3554.7,Credit Card,Two Year,Yes,5,0
+972,Male,66,69,Premium,23.9,3735.69,Credit Card,Month-to-Month,No,7,0
+973,Male,20,64,Basic,53.85,3420.84,Credit Card,Month-to-Month,Yes,5,0
+974,Male,23,37,Basic,48.7,1336.34,Bank Transfer,Two Year,Yes,4,0
+975,Female,22,49,Standard,63.72,4377.91,PayPal,Two Year,No,1,0
+976,Female,22,21,Basic,99.96,927.41,Bank Transfer,One Year,No,3,0
+977,Female,64,64,Basic,79.25,362.81,Credit Card,Two Year,Yes,9,1
+978,Female,40,5,Premium,45.81,3615.58,Credit Card,Two Year,No,4,0
+979,Female,66,70,Standard,84.48,2429.83,PayPal,One Year,No,9,0
+980,Female,26,4,Basic,25.36,4260.58,Credit Card,One Year,Yes,3,0
+981,Female,52,39,Basic,12.74,1978.65,Credit Card,One Year,Yes,1,0
+982,Female,37,35,Standard,28.4,924.57,Credit Card,Two Year,No,6,0
+983,Female,66,1,Premium,40.64,4198.57,PayPal,One Year,Yes,9,0
+984,Male,59,24,Standard,55.95,2789.66,Bank Transfer,Month-to-Month,No,9,0
+985,Female,52,57,Standard,65.36,1027.06,Credit Card,Month-to-Month,No,1,0
+986,Female,67,70,Basic,91.95,3629.88,PayPal,Month-to-Month,Yes,0,0
+987,Female,35,41,Basic,55.89,2604.46,Credit Card,Two Year,Yes,4,0
+988,Female,34,54,Premium,55.11,3061.13,PayPal,Month-to-Month,No,0,0
+989,Female,41,46,Basic,14.52,2358.4,Credit Card,Two Year,No,0,0
+990,Female,20,60,Basic,13.14,4160.67,PayPal,Two Year,No,0,0
+991,Female,49,60,Standard,59.6,4164.86,Credit Card,Month-to-Month,No,5,0
+992,Female,52,57,Basic,49.44,3576.01,Bank Transfer,One Year,Yes,8,0
+993,Female,55,31,Premium,85.53,616.47,Credit Card,Two Year,No,9,0
+994,Female,30,24,Standard,24.46,4210.38,PayPal,Month-to-Month,Yes,0,1
+995,Female,64,36,Premium,12.25,3387.96,Credit Card,Two Year,Yes,4,1
+996,Male,42,30,Standard,50.41,3515.42,Bank Transfer,One Year,No,8,0
+997,Male,26,24,Basic,31.37,1878.62,Credit Card,One Year,Yes,8,0
+998,Female,21,30,Standard,14.47,4408.47,PayPal,Month-to-Month,Yes,0,1
+999,Female,31,7,Standard,75.21,3654.32,PayPal,Two Year,No,7,0
+1000,Male,54,35,Basic,20.04,651.69,Bank Transfer,Two Year,Yes,0,0
